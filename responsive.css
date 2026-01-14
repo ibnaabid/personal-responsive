@@ -170,10 +170,6 @@
 
 }
 
-.chat{
-    justify-content: center;
-}
-
 .foot-image{
     width: 50%;
     padding-top: 60px;
@@ -189,6 +185,7 @@
 .media{
     text-align: center;
     margin-top: 40px;
+    display: flex;
     background-color: cornsilk;
     justify-content: center;
 }
@@ -209,7 +206,24 @@
 
 }
 .social img{
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+}
+
+
+
+@media (max-width: 768px){
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card-image{
+        width: 100%;
+    }
+
+    .foot-item{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
