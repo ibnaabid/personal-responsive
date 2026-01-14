@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+.navbar-content{
+    width: 40%;
+    padding-top:20px ;
+}
+.name{
+    color: brown;
+    font-weight: bold;
+}
+
+.list-item{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+.list-item li{
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.list-item li a{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.list-item li a:hover{
+    color: darkslategray;
+}
+
+.btn{
+    border: 2px solid black;
+    width: 170px;
+    height: 60px;
+    margin-top: 30px;
+    background-color: coral;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+.first-image{
+    width: 50%;
+    text-align: right;
+}
+.first-image img{
+    max-width: 60%;
+    height: auto;
+}
+.hero{
+    display: flex;               /* flex container */
+    align-items: center;         /* vertical center */
+    justify-content: center;     /* horizontally center the group */
+    gap: 40px;                   /* space between image & text */
+    padding: 30px 12px;
+}
+
+.inform{
+    display: flex;               /* flex applied to align-items */
+    flex-direction: column;      /* text stacked vertically */
+    justify-content: center;
+    gap: 30px;
+}
+.inform h1{
+    color: #676767;
+    font-weight: bold;
+}
+.inform p{
+    color: cornflowerblue;
+}
+
+.Dowload{
+    border: 3px solid black;
+    color: white;
+    background-color: coral;
+    padding: 15px 10px;
+    border-radius: 5px;
+
+    margin-top: 20px;  /* 🔹 button text থেকে উপরের spacing */
+}
+
+
+
+.second-images{
+    width: 100%;
+
+}
+.second-images img{
+    max-width: 100%;
+    height: auto;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    padding: 40px;
+    /* flex-wrap: wrap; */
+}
+.sec-nav{
+    color:firebrick;
+    font: bold;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+}
+#different{
+    color: indigo;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    background-color: cornsilk;
+    padding: 40px;
+    flex-wrap: wrap;       /* 🔹 multiple cards wrap */
+    gap: 30px;             /* 🔹 cards এর মধ্যে distance */
+}
+
+.card-image{
+    display: flex;
+    flex-direction: column; /* image + h4 + p vertically stack */
+    align-items: center;    /* সব center align */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;           /* fixed card width */
+}
+
+.card-image img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-image h4,p{
+    margin-top: 15px;
+    color: indianred;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
